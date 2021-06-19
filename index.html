@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Blog</title>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!--Navigation bar-->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="navbar-brand open-sans">
+                <a href="index.html">Personal Blog</a>
+            </div>
+            <div id="toggler">
+                <span id="open" onclick="openn()"><i class="fas fa-grip-lines"></i></span>
+                <span id="close" onclick="closee()"><i class="fas fa-times"></i></span>
+            </div>
+            <ul id="nav-list" class="open-sans">
+                <li><a onclick="navClose()" class="active" href="index.html">HOME</a></li>
+                <li><a onclick="navClose()" href="about.html">ABOUT</a></li>
+                <li><a onclick="navClose()" href="posts.html">POSTS</a></li>
+                <li><a onclick="navClose()" href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--Header Section-->
+    <section id="header">
+        <div class="container">
+            <div class="row">
+                <h1 class="text-light open-sans">Personal Blog</h1>
+                <p class="text-light san-sarif ">Lorem ipsum dolor sit consectetur adipisicing.</p>
+            </div>
+        </div>
+    </section>
+    <!--Post Section-->
+    <section id="post">
+        <div class="container">
+            <div class="row">
+                <h3 class="open-sans font-12 head-tag">New Posts</h3>
+                <div class="n-post">
+                    <div class="post">
+                        <a href="#">
+                            <h2 class="open-sans">Man must explore, and this is exploration at its greatest</h2>
+                            <h3 class="san-sarif width-400">Problems look mighty small from 150 miles up</h3>
+                        </a>
+                        <p class="san-sarif font-12">
+                            Posted by <span>Fresh Blog</span> on <span>January 31, 2020</span> ·<span> 4 mins read</span>
+                        </p>
+                    </div>
+                    <div class="post">
+                        <a href="#">
+                            <h2 class="open-sans">Man must explore, and this is exploration at its greatest</h2>
+                            <h3 class="san-sarif width-400">Problems look mighty small from 150 miles up</h3>
+                        </a>
+                        <p class="san-sarif font-12">
+                            Posted by <span>Fresh Blog</span> on <span>January 31, 2020</span> ·<span> 4 mins read</span>
+                        </p>
+                    </div>
+                    <div class="post">
+                        <a href="#">
+                            <h2 class="open-sans">Man must explore, and this is exploration at its greatest</h2>
+                            <h3 class="san-sarif width-400">Problems look mighty small from 150 miles up</h3>
+                        </a>
+                        <p class="san-sarif font-12">
+                            Posted by <span>Fresh Blog</span> on <span>January 31, 2020</span> ·<span> 4 mins read</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <h3 class="open-sans font-12 head-tag">Popular Posts</h3>
+                <div class="n-post">
+                    <div class="post">
+                        <a href="#">
+                            <h2 class="open-sans">Man must explore, and this is exploration at its greatest</h2>
+                            <h3 class="san-sarif width-400">Problems look mighty small from 150 miles up</h3>
+                        </a>
+                        <p class="san-sarif font-12">
+                            Posted by <span>Fresh Blog</span> on <span>January 31, 2020</span> ·<span> 4 mins read</span>
+                        </p>
+                    </div>
+                    <div class="post">
+                        <a href="#">
+                            <h2 class="open-sans">Man must explore, and this is exploration at its greatest</h2>
+                            <h3 class="san-sarif width-400">Problems look mighty small from 150 miles up</h3>
+                        </a>
+                        <p class="san-sarif font-12">
+                            Posted by <span>Fresh Blog</span> on <span>January 31, 2020</span> ·<span> 4 mins read</span>
+                        </p>
+                    </div>
+                    <div class="post">
+                        <a href="#">
+                            <h2 class="open-sans">Man must explore, and this is exploration at its greatest</h2>
+                            <h3 class="san-sarif width-400">Problems look mighty small from 150 miles up</h3>
+                        </a>
+                        <p class="san-sarif font-12">
+                            Posted by <span>Fresh Blog</span> on <span>January 31, 2020</span> ·<span> 4 mins read</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <h3 class="open-sans font-12 head-tag">Other Posts</h3>
+                <div class="n-post">
+                    <div class="post">
+                        <a href="#">
+                            <h2 class="open-sans">Man must explore, and this is exploration at its greatest</h2>
+                            <h3 class="san-sarif width-400">Problems look mighty small from 150 miles up</h3>
+                        </a>
+                        <p class="san-sarif font-12">
+                            Posted by <span>Fresh Blog</span> on <span>January 31, 2020</span> ·<span> 4 mins read</span>
+                        </p>
+                    </div>
+                    <div class="post">
+                        <a href="#">
+                            <h2 class="open-sans">Man must explore, and this is exploration at its greatest</h2>
+                            <h3 class="san-sarif width-400">Problems look mighty small from 150 miles up</h3>
+                        </a>
+                        <p class="san-sarif font-12">
+                            Posted by <span>Fresh Blog</span> on <span>January 31, 2020</span> ·<span> 4 mins read</span>
+                        </p>
+                    </div>
+                    <div class="post">
+                        <a href="#">
+                            <h2 class="open-sans">Man must explore, and this is exploration at its greatest</h2>
+                            <h3 class="san-sarif width-400">Problems look mighty small from 150 miles up</h3>
+                        </a>
+                        <p class="san-sarif font-12">
+                            Posted by <span>Fresh Blog</span> on <span>January 31, 2020</span> ·<span> 4 mins read</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="lrow">
+                <a href="posts.html" class="san-sarif width-600">View All Posts <span><i class="fas fa-long-arrow-alt-right"></i></span></a>
+            </div>
+        </div>
+    </section>
+    <!--Footer Section-->
+    <hr>
+    <section id="footer">
+        <div class="container">
+            <div class="row text-center">
+                <a href="#">
+                    <i class="far fa-envelope"></i> 
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>  
+                </a>
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>   
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin-in"></i>  
+                </a>
+            </div>
+            <div class="row text-center">
+                <p class="san-sarif font-12 text-light">Copyright © Fresh Blog 2021</p>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

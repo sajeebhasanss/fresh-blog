@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Blog</title>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!--Navigation bar-->
+    <nav id="navbar">
+        <div class="container">
+            <div class="navbar-brand open-sans">
+                <a href="index.html">Fresh Blog</a>
+            </div>
+            <div id="toggler">
+                <span id="open" onclick="openn()"><i class="fas fa-grip-lines"></i></span>
+                <span id="close" onclick="closee()"><i class="fas fa-times"></i></span>
+            </div>
+            <ul id="nav-list" class="open-sans">
+                <li><a  onclick="navClose()" href="index.html">HOME</a></li>
+                <li><a  onclick="navClose()" href="about.html">ABOUT</a></li>
+                <li><a  onclick="navClose()" href="posts.html">POSTS</a></li>
+                <li><a  onclick="navClose()" class="active" href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--Header Section-->
+    <section id="header">
+        <div class="container">
+            <div class="row">
+                <h1 class="text-light open-sans">Contact Me</h1>
+                <p class="text-light san-sarif ">Lorem ipsum dolor sit consectetur adipisicing.</p>
+            </div>
+        </div>
+    </section>
+    <!--Contact Section-->
+    <section id="contact">
+		<div class="container">
+            <h1 class="text-center section-header-color open-sans">Contact Me</h1>
+           <div class="s-text">
+            <p class="text-center san-sarif">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus libero voluptatibus facilis placeat incidunt! Vitae eum a laborum ad provident. Libero dolor voluptas magni consequuntur mollitia numquam id laborum eaque!</p>
+           </div>
+            <div class="row">
+                <div class="column">
+                    <div class="details">
+                        <div class="address">
+                            <div class="row2">
+                                <div class="col-1">
+                                    <span><i class="fas fa-map-marker-alt"></i></span>
+                                </div>
+                                <div class="col-2 san-sarif">
+                                    <h4>Address</h4>
+                                    <p>Dhaka,Bangladesh <br> Tilakpur,Akklepur,Joypurhat</p>
+                                </div>
+                            </div>
+                            <div class="row2">
+                                <div class="col-1">
+                                    <span><i class="fas fa-phone"></i></span>
+                                </div>
+                                <div class="col-2 san-sarif">
+                                    <h4>Phone</h4>
+                                    <p>01*********</p>
+                                </div>
+                            </div>
+                            <div class="row2">
+                                <div class="col-1">
+                                    <span><i class="far fa-envelope"></i></span>
+                                </div>
+                                <div class="col-2 san-sarif">
+                                    <h4>Email</h4>
+                                    <p>hsajeeb777@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="message open-sans">
+                       <h3 class="text-dark bg-light">Send Message</h3>
+                       <form action="">
+                        <input class="bg-light san-sarif" type="text" placeholder="Name">
+                        <input class="bg-light san-sarif" type="email" placeholder="Email">
+                        <textarea class="san-sarif" placeholder="Message" rows="3"></textarea>
+                        <button class="san-sarif">Send</button>
+                       </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer Section-->
+    <hr>
+    <section id="footer">
+        <div class="container">
+            <div class="row text-center">
+                <a href="#">
+                    <i class="far fa-envelope"></i> 
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>  
+                </a>
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>   
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin-in"></i>  
+                </a>
+            </div>
+            <div class="row text-center">
+                <p class="san-sarif font-12 text-light">Copyright © Fresh Blog 2021</p>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

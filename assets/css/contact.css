@@ -1,0 +1,8 @@
+#header {
+    padding: 220px 0px;
+    text-align: center;
+    background: url("../image/banar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
